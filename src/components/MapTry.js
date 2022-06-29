@@ -1,7 +1,6 @@
 import React from 'react';
 import { MapContainer } from 'react-leaflet/MapContainer';
 import { TileLayer } from 'react-leaflet/TileLayer';
-import { useMap } from 'react-leaflet/hooks';
 import { Marker, Popup } from 'react-leaflet';
 const MapTry = () => {
   const position = [51.505, -0.09]

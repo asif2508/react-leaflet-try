@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MapTry from './components/MapTry';
 function App() {
