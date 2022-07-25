@@ -46,6 +46,9 @@ const MapTry = () => {
       icon={icon}>
         <Popup>
           <span onClick={toggleDraggable}>
+            {
+              position && <p> Current position: {position?.lat}, {position?.lng}</p>
+            }
           {draggable
             ? <>
             <p>Marker is draggable Now</p>
